@@ -28,12 +28,19 @@ Para este primer análisis haremos una pequeña descripción de la funcionalidad
 -----
 >>> Breve análisis de Cubikate
 
-Cubikate es un portal web para publicitar 
+Cubikate es un portal web para publicitar unas oficinas de coworking en el centro de Granada. En este lugar se reúnen trabajadores de distintos sectores y empresas con el objetivo de conseguir un lugar tranquilo de trabajo así como nuevas oportunidades de negocio y ampliaciones en sus redes de contactos.
+
+El portal web ofrece información básica sobre las oficinas Cubikate, sus instalaciones y los servicios que ofrece, así como un espacio para resolver dudas y contactar con las oficinas para planificar visitas guiadas.
 
 ![Método UX](img/Persona.png) 1.b Persona
 -----
+>>> Reutilización de una persona
 
->>> Comenta brevemente porqué has seleccionado a esas personas y sube una captura de pantalla de su ficha  (80-150 caracteres)
+Esta persona es la primera herramienta que vamos a plantear para el proyecto de rediseño. Se va a reutilizar a una persona ya desarrollada en las prácticas de la asignatura. Esta persona ha sido **diseñada, revisada y verificada**, por lo que se trata de una herramienta que no está enfocada a un proyecto concreto. Es por eso que reutilizamos a Ashley Miles como posible usuario del portal web y que sirva de ayuda para buscar posibles faltas en el servicio.
+
+
+![](img/Plantilla_Ashley.png)
+
 
 ![Método UX](img/JourneyMap.png) 1.c User Journey Map
 ----
