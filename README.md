@@ -24,9 +24,11 @@ Empezamos el proceso de análisis, describiendo las competencias principales de 
 
 Para este primer análisis haremos una pequeña descripción de la funcionalidad y diseño de la web, reutilizaremos una persona y, para cerrar esta primera vuelta, realizaremos un Usability Review que saque a la luz los puntos fuertes y débiles del diseño.
 
-![Método UX](img/Competitive.png) 1.a Competitive Analysis
+![Método UX](img/Competitive.png) 1. Descripción del supuesto práctico
 -----
 >>> Breve análisis de Cubikate
+
+Cubikate es un portal web para publicitar 
 
 ![Método UX](img/Persona.png) 1.b Persona
 -----
