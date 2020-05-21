@@ -10,20 +10,23 @@ Descripción: ninguna
 Logotipo: 
 
 Autor
- * :bust_in_silhouette:  [Marina H. B](http://github.com/marinahbau/DIU20)    :octocat:     
+[Marina Hernández Bautista](http://github.com/marinahbau/DIU20)    :octocat:     
 
 ----- 
 
-En esta práctica estudiaremos un caso de plataforma de economía colaborativa y realizaremos una propuesta para su diseño Web/movil. Utilizaremos herramientas y entregables descritos en el siguiente CheckList (https://github.com/mgea/UX-DIU-Checklist) 
+En este documento realizaremos un proceso de diseño acotado y simplificado para elaborar un proyecto que redefina y mejore al caso de estudio propuesto en un período reducido de tiempo. Para ello, se pondrán en práctica técnicas y herramientas UX ya estudiadas en la asignatura.
 
-# Proceso de Diseño 
+# Proceso de Análisis 
 
-## Paso 1. UX Desk Research & Analisis 
+Empezamos el proceso de análisis, describiendo las competencias principales de Cubikate y estableciendo qué herramientas vamos a utilizar para analizarla en profundidad.
+
+## Primeras Herramientas UX. Análisis Básico.
+
+Para este primer análisis haremos una pequeña descripción de la funcionalidad y diseño de la web, reutilizaremos una persona y, para cerrar esta primera vuelta, realizaremos un Usability Review que saque a la luz los puntos fuertes y débiles del diseño.
 
 ![Método UX](img/Competitive.png) 1.a Competitive Analysis
 -----
-
->>> Describe brevemente características de las aplicaciones que tienes asignadas, y por qué has elegido una de ellas (150-300 caracteres) 
+>>> Breve análisis de Cubikate
 
 ![Método UX](img/Persona.png) 1.b Persona
 -----
