@@ -3,14 +3,11 @@
 
 Caso de estudio: [Cubikate Granada](https://cubikate.es/)
 
-Proyecto de rediseño:
+Proyecto de rediseño: LanceWork
 
-Descripción: ninguna
+Descripción: LanceWork es un portal web destinado a publicitar oficinas de coworking en pleno centro de Granada. A través de esta web podrás consultar toda la información relacionada con nosotros, ver el entorno de trabajo, realizar presupuestos y organizar visitas guiadas de una manera sencilla y atractiva.
 
-Logotipo: 
-
-Autor
-[Marina Hernández Bautista](http://github.com/marinahbau/DIU20)    :octocat:     
+Autor: [Marina Hernández Bautista](http://github.com/marinahbau)    :octocat:     
 
 ----- 
 
@@ -24,16 +21,16 @@ Empezamos el proceso de análisis, describiendo las competencias principales de 
 
 Para este primer análisis haremos una pequeña descripción de la funcionalidad y diseño de la web, reutilizaremos una persona y, para cerrar esta primera vuelta, realizaremos un Usability Review que saque a la luz los puntos fuertes y débiles del diseño.
 
-![Método UX](img/Competitive.png) 1. Descripción del supuesto práctico
------
+### 1. Descripción del supuesto práctico
+
 >>> Breve análisis de Cubikate
 
-Cubikate es un portal web para publicitar unas oficinas de coworking en el centro de Granada. En este lugar se reúnen trabajadores de distintos sectores y empresas con el objetivo de conseguir un lugar tranquilo de trabajo así como nuevas oportunidades de negocio y ampliaciones en sus redes de contactos.
+Cubikate es un portal web para publicitar unas oficinas de coworking en el centro de Granada. En este lugar se reúnen trabajadores de distintos sectores y empresas con el objetivo de conseguir un lugar tranquilo de trabajo, así como nuevas oportunidades de negocio y ampliaciones en sus redes de contactos.
 
-El portal web ofrece información básica sobre las oficinas Cubikate, sus instalaciones y los servicios que ofrece, así como un espacio para resolver dudas y contactar con las oficinas para planificar visitas guiadas.
+El portal web ofrece **información básica** sobre las oficinas Cubikate, sus instalaciones y los servicios que ofrece, así como un espacio para resolver dudas y **contactar con las oficinas** para planificar visitas guiadas.
 
-![Método UX](img/Persona.png) 1.b Persona
------
+### 2. Persona
+
 >>> Reutilización de una persona
 
 Esta persona es la primera herramienta que vamos a plantear para el proyecto de rediseño. Se va a reutilizar a una persona ya desarrollada en las prácticas de la asignatura. Esta persona ha sido **diseñada, revisada y verificada**, por lo que se trata de una herramienta que no está enfocada a un proyecto concreto. Es por eso que reutilizamos a Ashley Miles como posible usuario del portal web y que sirva de ayuda para buscar posibles faltas en el servicio.
@@ -41,151 +38,95 @@ Esta persona es la primera herramienta que vamos a plantear para el proyecto de 
 
 ![](img/Plantilla_Ashley.png)
 
+### 3. Usability Review
 
-![Método UX](img/JourneyMap.png) 1.c User Journey Map
-----
+>>>  Revisión de usabilidad
 
+Pasamos un documento checklist para detectar fallos en las características de diseño más destacables de la web. El documento completo junto con explicaciones más específicas puedes verlo [aquí](doc/Usability-review-Cubikate.pdf)
 
->>> Comenta brevemente porqué has escogido estas dos experiencias de usuario (y si consideras que son habituales) (80-150 caracteres) 
+Puntuación obtenida: 81 (BUENO)
 
-![Método UX](img/usabilityReview.png) 1.d Usability Review
-----
->>>  Revisión de usabilidad: (toma los siguientes documentos de referncia y verifica puntos de verificación de  usabilidad
->>>> SE deben incluir claramente los siguientes elementos
->>> - Enlace al documento:  (sube a github el xls/pdf) 
->>> - Valoración final (numérica): 
->>> - Comentario sobre la valoración:  (60-120 caracteres)
+Conclusión: Cubikate es un portal web que tiene poco contenido, por lo que su principal ventaja es la **accesibilidad de manera sencilla a las distintas funcionalidades del portal y la facilidad de uso general**.
+Que la web tenga poco contenido supone un punto crítico: se echa de menos una ayuda en línea para el usuario, un mapa del sitio y procesos de trabajo adicionales como calculadoras de presupuesto, comentarios y más contenido multimedia para atraer a más clientes.
 
 
-## Paso 2. UX Design  
+## Ánalisis más exhaustivo. Evaluación de Accesibilidad. 
+
+Realizaremos un análisis de accesibilidad para examinar de manera profunda carencias en el diseño que luego podamos redefinir.
+
+### 1. Documento de accesibilidad 
+
+>>> Informe de accesibilidad
+
+Evaluamos aspectos diferentes relacionados con la accesibilidad y encontramos muchos errores que no siguen las pautas WCAG y dificultades para navegar adecuadamente sin archivos CSS o JS. Estas características serán rediseñadas en el nuevo proyecto.
+Puedes ver el informe completo [aquí](doc/Accesibilidad_Cubikate.pdf).
 
 
-![Método UX](img/feedback-capture-grid.png) 2.a Feedback Capture Grid
-----
+# Proceso de Diseño
+
+En esta segunda mitad comenzaremos estableciendo las bases de nuestra nueva propuesta de valor y terminaremos con los prototipos necesarios para que todas las partes interesadas en el proyecto puedan hacerse una idea del resultado de este proceso de rediseño.
+
+## Comienza el proceso de rediseño. 
+
+Aquí sacaremos a la luz los puntos que van a hacer de nuestro proyecto de rediseño una alternativa al uso de Cubikate, salvando sus puntos críticos y aunando sus buenas prácticas en el diseño.
 
 
->>> Comenta con un diagrama los aspectos más destacados a modo de conclusion de la práctica anterior,
+### 1. Feedback Capture Grid
 
 
- Interesante | Críticas     
-| ------------- | -------
-  Preguntas | Nuevas ideas
+>>> Nueva propuesta de valor
+
+Agrupamos puntos fuertes y débiles y utilizamos a nuestra persona Ashley Miles para conseguir preguntas a partir de la experiencia. Obtenemos una serie de nuevas ideas que resumimos a modo de conclusión.
+
+![](img/fcg.png)
   
-  
-  
->>> ¿Que planteas como "propuesta de valor" para un nuevo diseño de aplicación para economia colaborativa ?
->>> Problema e hipótesis
->>>  Que planteas como "propuesta de valor" para un nuevo diseño de aplicación para economia colaborativa te
->>> (150-200 caracteres)
+Conclusión: la nueva propuesta de valor, llamada **LanceWork** tendrá dos puntos fuertes a considerar.
 
-![Método UX](img/Sitemap.png) 2.b Tasks & Sitemap 
------
+- **El rediseño:** nuevo diseño del menú principal para resaltarlo y marcar la opción actual, así como rediseño de los colores para solucionar los problemas de accesibilidad relacionados con el contraste. Se añade también más contenido a la web: noticias, más fotos y más información del sitio.
 
->>> Definir "User Map" y "Task Flow" ... 
+- **Nuevos items:** información de navegación, mapa del sitio, barra de búsqueda y un programa de calculadora de presupuesto inmediato.
+
+### 2. Sitemap 
 
 
-![Método UX](img/labelling.png) 2.c Labelling 
-----
+>>> Definir un nuevo mapa del sitio
+
+Definiremos ahora el mapa del sitio, que no se incluye en Cubikate y que marcará una diferencia en nuestra propuesta de proyecto. No se va a realizar un labelling puesto que los términos van a ser los mismos que los ya utilizados en Cubikate.
+
+![](img/sitemapCub.png)
 
 
->>> Identificar términos para diálogo con usuario  
+## Prototipado final del proceso de diseño
 
-Término | Significado     
-| ------------- | -------
-  Login¿?  | acceder a plataforma
+### 1. Guidelines
 
 
-![Método UX](img/Wireframes.png) 2.d Wireframes
------
+>>> Rediseño de los colores y la tipografía
 
->>> Plantear el  diseño del layout para Web/movil (organización y simulación ) 
+Realizamos un Style Guide para comprobar de forma visual el resultado del rediseño de las tipografías y resolvemos los problemas de contraste utilizando la herramienta online [ Contrast Checker](https://webaim.org/resources/contrastchecker/).
 
+- Utilizamos la fuente [Zilla Slab](https://fonts.google.com/specimen/Zilla+Slab) para los títulos, por ser una fuente más expresiva.
 
-## Paso 3. Make (Prototyping) 
+- Utilizamos la fuente [Roboto](https://fonts.google.com/specimen/Roboto) para el cuerpo del texto, por ser una tipografía uniforme y clara
 
+![](img/styleguide.png)
 
-![Método UX](img/moodboard.png) 3.a Moodboard
------
-
-
->>> Plantear Diseño visual con una guía de estilos visual (moodboard) 
-
-![Método UX](img/landing-page.png)  3.b Landing Page
-----
+### 2. Wireframes
 
 
->>> Plantear Landing Page 
+>>> Bocetos de algunas pantallas esenciales de LanceWork 
 
-![Método UX](img/guidelines.png) 3.c Guidelines
-----
+Se adjuntan bocetos con un buen nivel de detalle para mostrar las páginas de **Inicio** y **Calculadora de presupuesto**
 
->>> Estudio de Guidelines y Patrones IU a usar 
+![](img/wireframe1.png)
+![](img/wireframe2.png)
 
-![Método UX](img/mockup.png)  3.d Mockup
-----
+# Conclusión 
 
->>> Layout: Mockup / prototipo HTML  (que permita simular tareas con estilo de IU seleccionado)
+Con LanceWork pretendemos llegar al mayor número de interesados posible, ofreciendo una propuesta de diseño mejorada y más funcional.
 
+A través de todo este proceso de análisis y rediseño podremos comprobar cómo todos los fallos destacables han sido **corregidos, añadidos, o rediseñados** para obtener un nuevo portal web más atractivo y que proporcione más facilidades a los usuarios habituales y nuevos en la plataforma.
 
-## Paso 4. UX Check (Usability Testing) 
-
-
-![Método UX](img/ABtesting.png) 4.a A/B Testing
-----
-
-
->>> Comprobacion de asignaciones para A/B Testing. Asignaciones https://github.com/mgea/DIU19/blob/master/ABtesting.md
-
->>>> Práctica A: 
-
-
-![Método UX](img/usability-testing.png) 4.b User Testing
-----
-
->>> Usuarios para evaluar prácticas 
-
-
-| Usuarios | Sexo/Edad     | Ocupación   |  Exp.TIC    | Personalidad | Plataforma | TestA/B
-| ------------- | -------- | ----------- | ----------- | -----------  | ---------- | ----
-| User1's name  | H / 18   | Estudiante  | Media       | Introvertido | Web.       | A 
-| User2's name  | H / 18   | Estudiante  | Media       | Timido       | Web        | A 
-| User3's name  | M / 35   | Abogado     | Baja        | Emocional    | móvil      | B 
-| User4's name  | H / 18   | Estudiante  | Media       | Racional     | Web        | B 
-
-
-![Método UX](img/Survey.png). 4.c Cuestionario SUS
-----
-
->>> Usaremos el **Cuestionario SUS** para valorar la satisfacción de cada usuario con el diseño (A/B) realizado. Para ello usamos la [hoja de cálculo](https://github.com/mgea/DIU19/blob/master/Cuestionario%20SUS%20DIU.xlsx) para calcular resultados sigiendo las pautas para usar la escala SUS e interpretar los resultados
-http://usabilitygeek.com/how-to-use-the-system-usability-scale-sus-to-evaluate-the-usability-of-your-website/)
-Para más información, consultar aquí sobre la [metodología SUS](https://cui.unige.ch/isi/icle-wiki/_media/ipm:test-suschapt.pdf)
-
->>> Adjuntar captura de imagen con los resultados + Valoración personal 
-
-
-![Método UX](img/usability-report.png) 4.c Usability Report
-----
-
->> Añadir report de usabilidad para práctica B 
-
-
-
-## Paso 5. Evaluación de Accesibilidad  
-
-
-![Método UX](img/Accesibility.png)  5.a Accesibility evaluation Report
-----
-
->>> Indica qué pretendes evaluar (de accesibilidad) y qué resultados has obtenido + Valoración personal
-
->>> Evaluación de la Accesibilidad (con simuladores o verificación de WACG) 
-
-
-
-## Conclusión / Valoración de las prácticas
-
-
->>> (90-150 caracteres) Opinión del proceso de desarrollo de diseño siguiendo metodología UX y valoración (positiva /negativa) de los resultados obtenidos  
 
 
 
